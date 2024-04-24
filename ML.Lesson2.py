@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # Step 1: Load CSV file into a pandas DataFrame
-data = pd.read_csv('/content/vehicle_data.csv')  # Assuming your CSV file has 1000 records
+data = pd.read_csv('/content/vehicle_data.csv')  # Assuming your CSV file has 10,000 records
 
 # Step 2: Data Preprocessing
 # Example: Convert categorical variables (like 'color') into numerical values using one-hot encoding
